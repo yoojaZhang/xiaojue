@@ -1,0 +1,81 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.eg.mp.druid.DruidProperties",
+      "name": "druid",
+      "type": "com.eg.mp.druid.DruidProperties"
+    },
+    {
+      "sourceType": "com.eg.mp.sys.SystemConfig",
+      "name": "renthz",
+      "type": "com.eg.mp.sys.SystemConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.eg.mp.druid.DruidProperties",
+      "defaultValue": 0,
+      "name": "druid.initial-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.eg.mp.druid.DruidProperties",
+      "defaultValue": 0,
+      "name": "druid.max-active",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.eg.mp.druid.DruidProperties",
+      "defaultValue": 0,
+      "name": "druid.min-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.eg.mp.druid.DruidProperties",
+      "name": "druid.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.eg.mp.druid.DruidProperties",
+      "defaultValue": false,
+      "name": "druid.test-on-borrow",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.eg.mp.druid.DruidProperties",
+      "name": "druid.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.eg.mp.druid.DruidProperties",
+      "name": "druid.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.eg.mp.sys.SystemConfig",
+      "name": "renthz.public-key-file-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.eg.mp.sys.SystemConfig",
+      "name": "renthz.rent-app-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.eg.mp.sys.SystemConfig",
+      "name": "renthz.rent-base-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.eg.mp.sys.SystemConfig",
+      "name": "renthz.rent-secret-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.eg.mp.sys.SystemConfig",
+      "name": "renthz.thingscloud-api-url",
+      "type": "java.lang.String"
+    }
+  ]
+}
